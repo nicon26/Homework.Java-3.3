@@ -16,6 +16,10 @@ public class App
         shapesList.add(rectangle);
         Circle circle1 = new Circle(9);
         shapesList.add(circle1);
+        Square square = new Square(6);
+        shapesList.add(square);
+        Triangle triangle = new Triangle(3, 7.8);
+        shapesList.add(triangle);
 
         final ListIterator<Shape> list  = shapesList.listIterator();
 
